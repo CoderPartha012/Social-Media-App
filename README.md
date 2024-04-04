@@ -1,37 +1,58 @@
-# Social-Media-App
-Full stack, fully-featured social media application using React, Firebase, Redux, Express, and Material-UI.  
+# Social Media Application
 
-Implemented backend REST API server with Node.js and Express and cloud functions on Firebase
+Welcome to the fully-featured social media application built using React, Firebase, Redux, Express, and Material-UI.
 
-To log in: make any email you want and password longer than 4 characters
+## Introduction
 
-Working Sample Account: userx@email.com, 123456
+This project encompasses both frontend and backend components to create a social media platform. Users can make posts, like them, add comments, customize their profiles, upload images, and receive notifications.
 
-Features:
-- Make posts, like them and add comments
-- user login, sign up, and authentication
-- Customize your user profile
-- Image uploads
-- Notifications
+## Features
 
-Website:
-- Original from Firebase: https://socialape-7d0b6.firebaseapp.com/
-- Github pages: https://dch133.github.io/Social-Media-App/
+- **User Authentication**: Users can sign up, log in, and authenticate using any email address and a password longer than 4 characters.
+- **Post Creation**: Users can create posts to share with others.
+- **Interactivity**: Users can like posts and add comments.
+- **Custom Profiles**: Users can customize their profiles.
+- **Image Uploads**: Capability to upload images.
+- **Notifications**: Users receive notifications for relevant interactions.
 
-Edit: Remote version of the app will probably stop working as dependencies get outdated. I don't actively support this app anymore. Feel free to suggest changes if you want.
+## Getting Started
 
--------------------------------------------------
-# Running Frontend side locally:
+### Running Locally
 
-To run this app:
-## 1: Install packages
+To run the frontend locally:
 
-run `npm install`
+1. Install necessary packages:
+   ```bash
+   npm install
+   ```
 
-## 2: Run project
+2. Start the project:
+   ```bash
+   npm start
+   ```
 
-run `npm start`
+3. Open the application in your browser:
+   ```
+   http://localhost:3000
+   ```
 
-## 3: Open it
+### Backend Setup
 
-go to [http://localhost:3000](http://localhost:3000)
+The backend consists of a REST API server built with Node.js and Express, along with cloud functions on Firebase.
+
+## Usage
+
+To log in, use the provided sample account:
+- Email: userx@email.com
+- Password: 123456
+
+## Additional Notes
+
+This project is hosted on Firebase and GitHub Pages. Please be aware that the remote version might become outdated as dependencies evolve. While the project is not actively maintained, feel free to suggest changes or contribute to its development.
+
+## Links
+
+- Original Firebase Deployment: [Social Ape](https://socialape-7d0b6.firebaseapp.com/)
+- GitHub Pages Deployment: [Social Media App](https://dch133.github.io/Social-Media-App/)
+
+Thank you for exploring this social media application! If you have any questions or suggestions, feel free to reach out.
